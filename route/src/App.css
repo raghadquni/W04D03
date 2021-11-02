@@ -1,0 +1,125 @@
+.nav ul li{
+  display: inline-block;
+  margin-right: 250px;
+
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+
+}
+
+.links:hover {
+  color: blue;
+}
+
+.icon {
+  color: white;
+  font-size: 30px;
+}
+
+.nav ul {
+  background-color: black;
+  padding: 1rem;
+}
+
+
+.cards {
+  width: 30%;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.082);
+}
+
+.card {
+  width: 30%;
+  border: 1px solid black;
+}
+
+.card img {
+  width: 100%;
+  height: 350px;
+}
+
+
+.fav {
+  margin: 20px 20px ;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.fav li {
+  background-color: rgba(168, 159, 159, 0.295);
+  border: 1px solid black;
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.cardCoun {
+   border: 1px solid black;
+   background-color: rgba(0, 0, 0, 0.082);
+}
+
+
+.cardCoun h1 {
+  text-align: center;
+}
+
+
+
+.cardsL {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  text-align: center;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 5px;
+  border-radius: 10%;
+  background-color: rgb(230, 63, 63);
+  border:1px solid black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+
+.icon {
+  color: white;
+  font-size: 30px;
+}
+
+
+.fav {
+  margin: 20px 20px ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.fav li {
+background-color: rgba(168, 159, 159, 0.295);
+  border: 1px solid black;
+  list-style-type: none;
+text-align: center;
+font-size: 20px;
+}
+
+
+.fav img {
+  margin:5px 5px;
+width: 300px;
+height: 300px;
+}
