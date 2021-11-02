@@ -21,7 +21,8 @@ const Nav = () => {
                 <li> <Link to ="/About">About</Link></li>
                 <li> <Link to ="/Contact">Contact</Link></li>
                 <li> <Link to ="/Cards">Cards</Link></li>
-                <li> <Link to ="/Card">Card</Link></li>
+                <li> <Link to ="/Favo">Favorite</Link></li>
+
 
             </ul>
         </div>

@@ -7,7 +7,6 @@ const Favo = () => {
 
 return (
     <div className='fav'>
-
       {myFav.map((item, i) => (
       <li key={i}><p>{item.name}</p>
       <img src={item.img} />

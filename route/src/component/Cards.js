@@ -10,21 +10,21 @@ const Cards = () => {
   const [cards] = useState([
     {
       id: 0,
-      name: "HafrAlbaten",
-      img: "",
+      name: "Hafr Albaten",
+      img: hafar,
       isFav: false,
     },
     {
       id: 1,
       name: "Alqassim",
-      img: "",
+      img: AlQassim,
       isFav: false,
 
     },
     {
       id: 2,
       name: "Swiss",
-      img: "",
+      img: Swiss,
       isFav: false,
 
     },
@@ -51,7 +51,7 @@ const changePath = (id) => {
 
   return (
   <div>
-      <input
+      <input className = "search"
         type="search"
         placeholder="Search here"
         onChange={(event) => {
@@ -71,8 +71,8 @@ const changePath = (id) => {
           
           .map((item, i) => ( // map for object
           <div className="cards">
-              <li className="card" key={i} >
-                  <div onClick={() => changePath(item.id)}>
+        <li className="card" key={i} >
+            <div onClick={() => changePath(item.id)}>
             <h2>{item.name}</h2>
             <img src= {item.img} alt='CuntriesImg' /> 
           </div>
